@@ -7,6 +7,7 @@ import Certifications from './components/Certifications';
 import USPSection from './components/USPSection';
 import InstagramFeed from './components/InstagramFeed';
 import ContactSection from './components/ContactSection';
+import ChatWidget from './components/ChatWidget';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <USPSection />
       <InstagramFeed />
       <ContactSection />
+      <ChatWidget />
       <Footer />
     </div>
   );
